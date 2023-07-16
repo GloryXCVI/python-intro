@@ -44,19 +44,36 @@
 #print corect in while loop 
 #eles print wron and ask  the user to enter the word again
 
-secretword='python'
-# userinput= input('enert your word:')
-c=0
-cheak =True
-while cheak:
-    userinput= input("enter your word:")
-    c= c+1
-    if userinput== secretword:
-       print("correct")
-       break
-    else:
-       print ("wrong")
-       if c==2:
-          check=False
-          print("you have recendet")
-          break
+# secretword='python'
+# # userinput= input('enert your word:')
+# c=0
+# cheak =True
+# while cheak:
+#     userinput= input("enter your word:")
+#     c= c+1
+#     if userinput== secretword:
+#        print("correct")
+#        break
+#     else:
+#        print ("wrong")
+#        if c==2:
+#           check=False
+#           print("you have recendet")
+#           break
+# counter=0
+# while counter <5:
+#     print('__'*50)
+#     str = input ("enter the str")
+#     modified_str = ''
+#     for char in range(0, len(str)):
+      
+#       if(str[char] == 'l' or str[char] =='u'):
+         
+#          modified_str += '*'
+#       else:
+         
+#          modified_str += str[char]
+#       print(modified_str)
+      
+#     counter=counter+1
+    
